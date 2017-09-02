@@ -13,7 +13,7 @@ def get_version(fname='aio_etcd/__init__.py'):
             if line.startswith('__VERSION__'):
                 return eval(line.split('=')[-1])
 
-version = '0.4.3'
+version = '0.4.5.0.tep.1'
 
 install_requires = [
     'python-etcd',
